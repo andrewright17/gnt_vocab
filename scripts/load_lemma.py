@@ -1,7 +1,6 @@
 import sqlite3
 import csv
 import os
-import sqlite3
 
 # Get repo root by going up from script directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
