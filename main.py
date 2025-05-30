@@ -6,6 +6,6 @@ load_dotenv()
 
 DATA_PATH = os.environ.get("DATA_PATH")
 
-data = pd.read_csv(f'{DATA_PATH}/form_90.tsv', sep = "\t")
+data = pd.read_csv(f'{DATA_PATH}/lemma_95.tsv', sep = "\t")
 
 print(data.head())
